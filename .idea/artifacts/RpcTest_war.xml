@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RpcTest:war">
+    <output-path>$PROJECT_DIR$/RpcTest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RpcTest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RpcTest.war">
+      <element id="artifact" artifact-name="RpcTest:war exploded" />
+    </root>
+  </artifact>
+</component>
